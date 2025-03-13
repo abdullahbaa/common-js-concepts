@@ -50,4 +50,11 @@ console.log('ex-6',sixth[1],sixth[5],sixth[200]);
 const sixths=[4,5,6,7,8];
 // you should not do it,instead use splice
 delete sixths[1];
-console.log('ex-6',sixth[1],sixth[5],sixth[200]);
+console.log('ex-7',sixths[1],sixths[5],sixths[200]);
+
+
+// Ex-8
+const eight = undefined;
+const ninth = null;
+const data ={results: [], updated : null};
+console.log('ex-8',typeof undefined, typeof null);
